@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-route-2',
   imports: [],
   templateUrl: './route-2.component.html',
-  styleUrl: './route-2.component.css'
+  styleUrl: './route-2.component.css',
+  standalone: true,
 })
 export class Route2Component {
   title = 'route-2';
